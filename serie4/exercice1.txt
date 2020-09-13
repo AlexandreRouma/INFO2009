@@ -1,0 +1,5 @@
+1) valide
+2) Si i est inférience a la valeur maximale d'un int, valide. Sinon, invalide
+3) invalide
+4) invalide
+5) invalide
