@@ -22,6 +22,11 @@ int main() {
     printf("c: ");
     if (!scanf("%lf", &c)) { printf("Valeur invalide!\n"); return 1; }
 
+    if (a == 0) {
+        printf("Erreur: A ne peut pas valoir 0\n");
+        return 1;
+    }
+
     double delta = (b * b) - (4 * a * c);
 
     if (delta < 0) {
